@@ -15,10 +15,10 @@ LOGGER = logging.getLogger(__name__)
 
 
 # Hesap
-API_ID = "17584432886"
-API_HASH = "bd41dd565d62d5764c367fef5a58da9d671d"
-TOKEN = "5544257275374:AAFFUHjuqAIK1gDkjKhp7rPILhvBsIsjFRU" 
-USERNAME = "9742836367"
+API_ID = "17253611"
+API_HASH = "ec38639d1331e305f469bf0496c2a039"
+TOKEN = "5575724170:AAHWj9-xYUnKzMBTxTHGRvcktpPyq1yIdhw" 
+USERNAME = "5249642922"
 
 
 
@@ -26,20 +26,20 @@ USERNAME = "9742836367"
 # BOT CLIENTİ
 bot = Client(
     ":memory:",
-    API_ID,
-    API_HASH,
-    bot_token=TOKEN,
-    plugins=dict(root="kelime_bot/plugins/"),
+    API_ID, "17253611"
+    API_HASH, "ec38639d1331e305f469bf0496c2a039"
+    bot_token=TOKEN,"5575724170:AAHWj9-xYUnKzMBTxTHGRvcktpPyq1yIdhw"
+    plugins=dict(root="karabakhsozbot/plugins/"),
     workers=16
     )
 
 
 # Oyun Verileri
-oyun = {}
+oyun = {oyun}
 
 
 # rating
-rating = {}
+rating = {skor}
 
 
 
@@ -47,5 +47,5 @@ rating = {}
 
 # !!!!!!!!!!!!!! DEĞİŞTİR KESİNLİKLE !!!!!!!!!!!!!!!!
 #      SAHİBİN USER ID'Sİ
-OWNER_ID = 974246367
+OWNER_ID = 5249642922
 
